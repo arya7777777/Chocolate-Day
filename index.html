@@ -16,7 +16,7 @@ body{
   overflow:hidden;
 
   /* 🔹 BACKGROUND IMAGE PLACEHOLDER 🔹 */
-  background:url("assets/background.jpg") center/cover no-repeat;
+  background:url("background.png") center/cover no-repeat;
 }
 
 /* ---------- CORE ---------- */
@@ -220,19 +220,19 @@ function startRoad(type){
     <div id="road">
       <div id="lane"></div>
 
-      <img id="shop" src="assets/shop.png">
-      <img id="vehicle" src="assets/${type}.png">
+      <img id="shop" src="shop.png">
+      <img id="vehicle" src="${type}.png">
 
       <button style="position:absolute;bottom:20px;right:20px"
         onclick="drive()">Drive ➡️</button>
     </div>
 
     <div id="menuOverlay" onclick="closeMenu()">
-      <img src="assets/menu.png">
+      <img src="menu.png">
     </div>
 
     <div id="finalCard">
-      <img id="finalImg" src="assets/final_message.png">
+      <img id="finalImg" src="loveletter.png">
       <div id="finalOverlay" onclick="revealFinal()">
         💌 Tap to read something from my heart 💕
       </div>
